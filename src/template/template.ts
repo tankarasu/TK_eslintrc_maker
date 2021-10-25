@@ -9,11 +9,13 @@ import { variable } from "./variable/variable.js";
 import { typescript } from "./typescript/typescript.js";
 import { ES6 } from "./ES6/ES6.js";
 import { regex } from "./regex.js";
+import { comments } from "./comment.js";
 
 export const finalFile = {
   ...settings,
   rules: {
     ...spacing,
+    ...comments,
     ...classes,
     ...functions,
     ...style,
