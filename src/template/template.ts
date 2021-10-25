@@ -8,6 +8,7 @@ import { style } from "./styles/styles.js";
 import { variable } from "./variable/variable.js";
 import { typescript } from "./typescript/typescript.js";
 import { ES6 } from "./ES6/ES6.js";
+import { regex } from "./regex.js";
 
 export const finalFile = {
   ...settings,
@@ -18,7 +19,8 @@ export const finalFile = {
     ...style,
     ...variable,
     ...ES6,
-    ...typescript
+    ...typescript,
+    ...regex
   },
   overrides: [
     overrides

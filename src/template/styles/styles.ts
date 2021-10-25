@@ -28,6 +28,7 @@ export const style = {
   "no-console": "off",
   "no-await-in-loop": "off",
   "no-constant-condition": ["error", { "checkLoops": false }],
+  "indent": ["error", 2, { "SwitchCase": 1 }],
   "semi": [
     "error",
     "always"
@@ -53,7 +54,7 @@ export const style = {
       "code": 110,
       "comments": 110
     }
-    ],
+  ],
   "brace-style": [
     "error",
     "stroustrup"

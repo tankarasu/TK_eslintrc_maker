@@ -7,7 +7,6 @@ export const spacing = {
       "asyncArrow": "never"
     }
   ],
-  "no-regex-spaces": "error",
   "template-tag-spacing": [
     "error",
     "never"

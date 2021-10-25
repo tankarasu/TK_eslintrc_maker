@@ -17,4 +17,5 @@ export const variable = {
   "no-empty-character-class": "error",
   "use-isnan": "error",
   "no-unsafe-negation": "error",
+  "sort-vars": ["error", { "ignoreCase": true }],
 };
