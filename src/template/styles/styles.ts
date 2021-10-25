@@ -6,7 +6,6 @@ export const style = {
   "no-irregular-whitespace": "error",
   "no-unreachable": "error",
   "prefer-destructuring": "error",
-  "no-inline-comments": "error",
   "sort-imports": "off",
   "sort-keys": "off",
   "for-direction": "error",

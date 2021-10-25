@@ -119,8 +119,4 @@ export const spacing = {
     "error",
     "never"
   ],
-  "spaced-comment": [
-    "error",
-    "always"
-  ],
 };

@@ -196,6 +196,13 @@
     "no-unused-vars": "error",
     "no-undef-init": "error",
     "no-delete-var": "error",
+    "indent": [
+        "error",
+        2,
+        {
+          "SwitchCase": 1
+        }
+      ],
     "no-label-var": "error",
     "no-self-assign": "error",
     "init-declarations": "error",
