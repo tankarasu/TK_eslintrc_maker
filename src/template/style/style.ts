@@ -1,6 +1,10 @@
+import { lines } from "./lines";
+import { spacing } from "./spacing";
+
 export const style = {
+  ...lines,
+  ...spacing,
   "camelcase": "error",
-  "newline-before-return": "error",
   "no-compare-neg-zero": "error",
   "no-duplicate-imports": "error",
   "no-irregular-whitespace": "error",
@@ -13,7 +17,6 @@ export const style = {
   "no-restricted-imports": "off",
   "prefer-numeric-literals": "error",
   "no-useless-rename": "error",
-  "no-unexpected-multiline": "error",
   "no-template-curly-in-string": "error",
   "no-sparse-arrays": "error",
   "no-extra-parens": "error",
